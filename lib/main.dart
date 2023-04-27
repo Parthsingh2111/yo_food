@@ -24,13 +24,16 @@ class MyApp extends StatelessWidget {
       create: (context) => CartFun(),
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'THE DLUTTER WAY',
+          
+          title: 'YO FOOD',
           theme: ThemeData(
             scaffoldBackgroundColor: Colors.white.withOpacity(0.9),
             primarySwatch: Colors.orange,
           ),
           // theme: ThemeData.dark(),
           home: LoginScreen()),
+
+      ///fctdcyt
     );
   }
 }
